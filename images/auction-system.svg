@@ -1,0 +1,39 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181326"/>
+      <stop offset="50%" stop-color="#0e0a17"/>
+      <stop offset="100%" stop-color="#1b122c"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#aa42ff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <radialGradient id="cardGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#aa42ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0e0a17" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="380" rx="16" fill="url(#bgGrad1)" stroke="#392a54" stroke-width="2"/>
+  <circle cx="300" cy="190" r="160" fill="url(#cardGlow1)"/>
+  <path d="M 50 60 L 550 60 M 50 320 L 550 320" stroke="#ffffff15" stroke-width="1" stroke-dasharray="6,6"/>
+  <path d="M 80 40 L 80 340 M 520 40 L 520 340" stroke="#ffffff15" stroke-width="1" stroke-dasharray="6,6"/>
+  <g transform="translate(300, 130)">
+    <circle cx="0" cy="0" r="50" fill="#24173d" stroke="#aa42ff" stroke-width="2.5"/>
+    <rect x="-24" y="-16" width="48" height="16" rx="3" transform="rotate(-35)" fill="url(#purpleGlow1)"/>
+    <rect x="-4" y="-6" width="8" height="40" rx="2" transform="rotate(-35)" fill="#ffffff"/>
+    <rect x="-22" y="24" width="44" height="6" rx="2" fill="#7f40ff"/>
+  </g>
+  <text x="300" y="225" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" letter-spacing="1.5">ONLINE AUCTION SYSTEM</text>
+  <text x="300" y="255" text-anchor="middle" fill="#c481ff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500" letter-spacing="2">C++ &bull; OOP TEAM PROJECT</text>
+  <g transform="translate(145, 280)">
+    <rect x="0" y="0" width="70" height="24" rx="12" fill="#24163b" stroke="#7f40ff60" stroke-width="1"/>
+    <text x="35" y="16" text-anchor="middle" fill="#e0b8ff" font-family="'Segoe UI', sans-serif" font-size="11">Admin</text>
+    <rect x="80" y="0" width="70" height="24" rx="12" fill="#24163b" stroke="#7f40ff60" stroke-width="1"/>
+    <text x="115" y="16" text-anchor="middle" fill="#e0b8ff" font-family="'Segoe UI', sans-serif" font-size="11">Buyer</text>
+    <rect x="160" y="0" width="70" height="24" rx="12" fill="#24163b" stroke="#7f40ff60" stroke-width="1"/>
+    <text x="195" y="16" text-anchor="middle" fill="#e0b8ff" font-family="'Segoe UI', sans-serif" font-size="11">Seller</text>
+    <rect x="240" y="0" width="70" height="24" rx="12" fill="#24163b" stroke="#00d4ff60" stroke-width="1"/>
+    <text x="275" y="16" text-anchor="middle" fill="#80e5ff" font-family="'Segoe UI', sans-serif" font-size="11">Bidding</text>
+  </g>
+</svg>

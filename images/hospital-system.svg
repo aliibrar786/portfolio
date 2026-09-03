@@ -1,0 +1,38 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="50%" stop-color="#0a101b"/>
+      <stop offset="100%" stop-color="#121e33"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <radialGradient id="cardGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a101b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="380" rx="16" fill="url(#bgGrad2)" stroke="#1f375c" stroke-width="2"/>
+  <circle cx="300" cy="190" r="160" fill="url(#cardGlow2)"/>
+  <path d="M 50 60 L 550 60 M 50 320 L 550 320" stroke="#ffffff15" stroke-width="1" stroke-dasharray="6,6"/>
+  <path d="M 80 40 L 80 340 M 520 40 L 520 340" stroke="#ffffff15" stroke-width="1" stroke-dasharray="6,6"/>
+  <g transform="translate(300, 130)">
+    <circle cx="0" cy="0" r="50" fill="#11253d" stroke="#00f2fe" stroke-width="2.5"/>
+    <!-- Medical Cross -->
+    <rect x="-10" y="-28" width="20" height="56" rx="4" fill="url(#cyanGlow)"/>
+    <rect x="-28" y="-10" width="56" height="20" rx="4" fill="url(#cyanGlow)"/>
+    <circle cx="0" cy="0" r="6" fill="#ffffff"/>
+  </g>
+  <text x="300" y="225" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" letter-spacing="1.5">HOSPITAL MANAGEMENT</text>
+  <text x="300" y="255" text-anchor="middle" fill="#72d6ff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="500" letter-spacing="2">C LANGUAGE &bull; PROCEDURAL SYSTEM</text>
+  <g transform="translate(130, 280)">
+    <rect x="0" y="0" width="100" height="24" rx="12" fill="#10253f" stroke="#00f2fe50" stroke-width="1"/>
+    <text x="50" y="16" text-anchor="middle" fill="#9de6ff" font-family="'Segoe UI', sans-serif" font-size="11">Patient Records</text>
+    <rect x="115" y="0" width="100" height="24" rx="12" fill="#10253f" stroke="#00f2fe50" stroke-width="1"/>
+    <text x="165" y="16" text-anchor="middle" fill="#9de6ff" font-family="'Segoe UI', sans-serif" font-size="11">Appointments</text>
+    <rect x="230" y="0" width="100" height="24" rx="12" fill="#10253f" stroke="#00f2fe50" stroke-width="1"/>
+    <text x="280" y="16" text-anchor="middle" fill="#9de6ff" font-family="'Segoe UI', sans-serif" font-size="11">File Storage</text>
+  </g>
+</svg>
